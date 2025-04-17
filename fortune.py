@@ -9,7 +9,10 @@ elif mood == "sad":
     fortune = "Tough times don't last, but tough people like you do."
 elif mood == "neutral":
     fortune = "Balance brings peace. Embrace the calm."
+elif mood == "stressed":
+    fortune = " Breathe deeply. Storms don’t last forever — peace is on its way. You've got this."
 else:
     fortune = "Hmm... I sense a mysterious aura. Be ready for surprises."
+    
 
 print(f"✨ Your fortune: {fortune} ✨")
